@@ -1,0 +1,1 @@
+"use strict";angular.module("pushPin",["ngAnimate","ngCookies","ngResource","ngRoute","ngSanitize","ngTouch"]).config(function(e){e.when("/",{templateUrl:"views/main.html",controller:"MainCtrl"}).when("/about",{templateUrl:"views/about.html",controller:"AboutCtrl"}).otherwise({redirectTo:"/"})});
